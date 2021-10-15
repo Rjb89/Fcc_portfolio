@@ -28,6 +28,11 @@ p {
 }
 ul {
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+li{
+
 }
 .fa-code {
   font-size: 2.5rem;
@@ -43,7 +48,7 @@ a {
   text-decoration: none;
   margin-left: 1.8rem;
   color: black;
-  font-weight: 500;
+  /* font-weight: 500; */
   text-transform: capitalize;
 }
 nav {
@@ -71,6 +76,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 30px;
   }
   
 #ws-container {
@@ -86,9 +93,9 @@ button {
   border-radius: 50px;
   outline: transparent;
   border: none;
-  font-size: 0.8em;
+  font-size: 0.6em;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 500;
   color: rgb(255, 255, 255);
   font-family: "Maven Pro", serif;
   background-color: rgb(129, 129, 129);
@@ -114,16 +121,22 @@ li:hover {
     #welcome-section{
       flex-direction: column-reverse;
       position: relative;
-      top: 220px;
+      top: 320px;
     }
     nav{
       flex-direction: column;
     }
+    button{
+      font-size: .9rem;
+      width: 15rem;
+      justify-content: space-evenly;
+    }
     ul{
-      flex-direction: column;
-      padding: 1.8rem;}
-      li{
-          padding: .9rem;
+      flex-direction: column;}
+      .fa-code{
+        position: relative;
+        bottom:10px ;
+        left: 15px;
       }
     }
   }
