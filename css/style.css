@@ -137,11 +137,14 @@ li:hover {
     bottom: -10px;
     left: -15px;
   }
+  .sec{
+    position: relative;
+  }
   #img-section {
     display: none;
   }
 }
-#projects {
+/* #projects {
 }
 section {
   height: 100vh;
@@ -153,4 +156,4 @@ section {
 }
 .sec {
   flex-direction: column;
-}
+} */
