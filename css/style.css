@@ -120,7 +120,7 @@ li:hover {
   #welcome-section {
     flex-direction: column;
     position: relative;
-    top: 320px;
+    top: 260px;
   }
   nav {
     flex-direction: column;
