@@ -21,7 +21,8 @@ h1 {
   font-size: 3rem;
 }
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.2em;
+  margin-top: 2.2rem;
 }
 p {
 }
@@ -68,7 +69,7 @@ nav {
   align-items: center;
 }
 #welcome-section {
-  max-width: 60%;
+  max-width: 80%;
   height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -139,4 +140,17 @@ li:hover {
   #img-section {
     display: none;
   }
+}
+#projects {
+}
+section {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.sec {
+  flex-direction: column;
 }
